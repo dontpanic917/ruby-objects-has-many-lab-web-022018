@@ -5,6 +5,6 @@ class Post
     @author
   end
   def author_name
-    @author.name === true ? @author.name : nil
+    @author.name ? @author.name : nil
   end
 end

@@ -4,4 +4,7 @@ class Post
     @title=title
     @author
   end
+  def author_name
+    @author.name
+  end
 end

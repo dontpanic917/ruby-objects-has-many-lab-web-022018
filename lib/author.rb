@@ -21,4 +21,9 @@ class Author
     @posts << post
     @@all_posts << post
   end
+
+  def self.post_count
+    @@post_count = @@all_posts.size
+    @@post_count
+  end
 end
